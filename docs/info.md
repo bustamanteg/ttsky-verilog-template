@@ -20,3 +20,4 @@ The counter output is mapped to uo_out[3:0].
 
 The output should increment in binary:
 0000 → 0001 → 0010 → ... → 1111 → 0000
+*
