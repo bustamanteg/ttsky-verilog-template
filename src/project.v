@@ -24,7 +24,7 @@ contador my_counter(.clk(clk),.rst(rst),.count(count));
 
   // All output pins must be assigned. If not used, assign to 0.
   assign uo_out[3:0]=count;
-  assign ou_out[7:4]=0;
+  assign uo_out[7:4]=0;
   assign uio_out=0;
   assign uio_oe=0;
 
