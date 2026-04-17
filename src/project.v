@@ -19,7 +19,7 @@ module tt_um_example (
 
 wire rst=~rst_n;
 wire [3:0] count;
-contador my_counter(.clk(clk),.rst(rst),.count(count))
+contador my_counter(.clk(clk),.rst(rst),.count(count));
 
 
   // All output pins must be assigned. If not used, assign to 0.
